@@ -54,18 +54,18 @@ description: ラジオ「コンプレッサーのしゃべっちゃお」の文�
 
 4. **成果物の保存と提示**
    - 生成した各コンテンツを以下のディレクトリにファイルとして保存してください（ファイル名は `YYYY-MM-DD-タイトル.md` 形式）。
-     - ブログ記事: `drafts/`（本文のみ。SEO設定は別ファイル）
-     - Facebook投稿: `facebook/`
-     - X投稿: `x/`
-     - Instagram投稿: `instagram/`
-     - SEO要素: `seo/`
+     - ブログ記事: `01_radio/drafts/`（本文のみ。SEO設定は別ファイル）
+     - Facebook投稿: `01_radio/facebook/`
+     - X投稿: `01_radio/x/`
+     - Instagram投稿: `01_radio/instagram/`
+     - SEO要素: `01_radio/seo/`
    - **WordPressへの貼り付け方法**: `Ctrl+Shift+V`（書式なしペースト）を使用すること。通常の`Ctrl+V`ではMarkdownが正しく認識されない。
    - 保存後、各ファイルへのリンクを順番に表示してください。
-     - [ブログ記事 (WordPress)](../drafts/...)
-     - [Facebook投稿](../facebook/...)
-     - [X投稿](../x/...)
-     - [Instagram投稿](../instagram/...)
-     - [SEO要素](../seo/...)
+     - [ブログ記事 (WordPress)](../01_radio/drafts/...)
+     - [Facebook投稿](../01_radio/facebook/...)
+     - [X投稿](../01_radio/x/...)
+     - [Instagram投稿](../01_radio/instagram/...)
+     - [SEO要素](../01_radio/seo/...)
 
 ## ブログ末尾の固定テンプレート
 
