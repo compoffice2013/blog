@@ -11,3 +11,7 @@
 
 ## パーマリンク
 hoikuen-shinnenkai-magic-show-2026
+
+## 内部リンク
+- [ラジオブログ：学童支援員さん向け講演会！子供との向き合い方と私の原点](https://comp-office.com/blog/gakudo-shienin-kenshu-toyama-lecture/)
+- [【高岡市】お寺でマジックショー！世代を超えて笑顔になる空間作りの秘密とは？](https://comp-office.com/blog/magic-show-temple-takaoka-2025/)
