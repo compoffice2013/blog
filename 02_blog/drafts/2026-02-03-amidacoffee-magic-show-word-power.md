@@ -41,3 +41,9 @@ https://amidacoffee.com/
 
 過去のアミダコーヒーでのマジックショーの様子はこちら
 https://comp-office.com/blog/blog-3082/
+
+【あわせて読みたい：言葉の力とAI活用】
+
+[倫理法人会 講話：テーマ「ことばの力」すべて文字起こしでご紹介。](https://comp-office.com/blog/kotoba-no-chikara-kouwa/)
+
+[AI活用でスピーチ力向上：AI「感想シェア会」AIペルソナからの具体的アドバイスとは](https://comp-office.com/blog/ai-speech-improvement/)
