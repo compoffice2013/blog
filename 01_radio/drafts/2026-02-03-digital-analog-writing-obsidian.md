@@ -89,9 +89,9 @@
 デジタルとアナログ、その両方を大切にしながら、これからも皆さんに不思議と笑いをお届けしていきたいと思います！！
 
 【関連するエッセイ】
-- [頭の中は自由なのだ](https://comp-office.com/essay/2020-05/)
-- [聞く力を磨く](https://comp-office.com/essay/2020-07/)
-- [いつかひとつにつながっていく](https://comp-office.com/essay/2021-02/)
+- [頭の中は自由なのだ](https://comp-office.com/essay/2020-5/)
+- [聞く力を磨く](https://comp-office.com/essay/2020-7/)
+- [いつかひとつにつながっていく](https://comp-office.com/essay/2021-2/)
 
 出会いに感謝！ご縁に感謝！
 
