@@ -9,8 +9,10 @@ description: ラジオ「コンプレッサーのしゃべっちゃお」の文�
 0. **クローンモード準備（必須）**
    - `_index.md` でワークスペース全体構造を確認
    - `00_persona/persona.md` でルール・禁止語・文体を確認
-   - `04_knowledge/personal_essays/` から類似テーマのエッセイを2〜3本読む
+   - `04_knowledge/personal_essays/essay_themes.md` でテーマ別インデックスを確認
+   - テーマに合ったエッセイを2〜3本読む
    - `04_knowledge/rinri/` から関連する倫理ブログがあれば参照
+   - `04_knowledge/episodes.md` から再利用できるエピソードがあるか確認
    - `04_knowledge/quotes.md` から使えるフレーズを確認
    - これらを踏まえて「マジシャン・コンプレッサー」として書く
 
@@ -155,6 +157,11 @@ https://radiko.jp/podcast/channels/686a6fce-7ea5-484a-aa05-69af19b96ba6
 1. **Obsidianでノート間リンクを作成**
    - 生成したブログ記事に関連するナレッジベースのノートがあれば、`[[ノート名]]` 形式でリンクを追加する
    - 例：しゃべっちゃおの記事なら `04_knowledge/` 内の関連エッセイへのリンクを検討
+
+1.5. **ナレッジベースの資産化（任意提案）**
+   - ブログ記事の中に「キラリと光るエピソード」があれば、`04_knowledge/episodes.md` への追記を提案する
+   - 印象的なフレーズやお客様の反応があれば、`04_knowledge/quotes.md` への追記を提案する
+   - FAQに使えそうな情報があれば、`04_knowledge/faq.md` への追記を提案する
 
 2. **GitHubへコミット＆プッシュ**
    - 変更をステージング: `git add .`

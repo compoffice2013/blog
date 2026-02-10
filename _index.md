@@ -11,9 +11,12 @@
 |---------|------|----------|
 | [[00_persona]] | スタイル・哲学 | 文体ルール、ペルソナ設定 |
 | [[01_radio]] | 📻 ラジオ「しゃべっちゃお」 | `drafts/`, `facebook/`, `x/`, `instagram/`, `seo/` |
+| [[01_transcripts]] | 🎙️ 文字起こし | `events/`, `lectures/`, `radio/`, `meetings/` |
 | [[02_blog]] | 📝 イベントレポート | `drafts/`, `facebook/`, `x/`, `instagram/`, `seo/` |
-| [[03_work]] | 仕事関連 | クライアント、セットリスト、契約 |
-| [[04_knowledge]] | ナレッジベース | エッセイ、名言集、倫理ブログ |
+| [[02_published]] | ✅ 公開済みコンテンツ | 公開済みブログ・SNS |
+| [[03_work]] | 💼 仕事関連 | クライアント、セットリスト、契約 |
+| [[04_knowledge]] | 📚 ナレッジベース | エッセイ、名言集、倫理ブログ、FAQ |
+| `templates/` | 📋 テンプレート | デイリーノート用テンプレート |
 
 ---
 
@@ -30,20 +33,36 @@
 
 ## 📊 統計情報
 
-- **最終更新**: 2026-01-20
-- **ブログ記事**: 3件
-- **Facebook投稿**: 2件
-- **Instagram投稿**: 1件
-- **X投稿**: 1件
-- **文字起こし**: 1件
+- **最終更新**: 2026-02-11
+- **イベントブログ記事**: 11件
+- **ラジオブログ記事**: 5件
+- **Facebook投稿**: 11件
+- **Instagram投稿**: 11件
+- **X投稿**: 11件
+- **エッセイ**: 72本（2015年〜2022年）
+- **倫理関連ブログ**: 32本
+- **文字起こし**: 3件
 
 ---
 
 ## 🔗 クイックリンク
 
-- [[00_persona/persona.md|ペルソナ設定]]
-- [[04_knowledge/episodes.md|エピソード集]]
-- [[04_knowledge/quotes.md|名言・フレーズ集]]
+### ペルソナ・ルール
+- [[00_persona/persona.md|ペルソナ設定]] — 文体・哲学の根幹
+
+### ナレッジベース（コンテンツ生成の源泉）
+- [[04_knowledge/personal_essays/essay_themes|エッセイ テーマ別インデックス]] — テーマ別にエッセイを検索
+- [[04_knowledge/personal_essays/_index|エッセイ一覧]] — 72本のエッセイ
+- [[04_knowledge/episodes|エピソード集]] — 再利用できるキラリと光るエピソード
+- [[04_knowledge/quotes|名言・フレーズ集]] — コンプレッサーらしい表現
+- [[04_knowledge/faq|FAQ]] — よくある質問と回答
+
+### SEO・ツール
+- [[04_knowledge/rank_math_seo_guidelines|Rank Math SEO 100点獲得ガイドライン]]
+- [[04_knowledge/wp_api_tool_manual|WordPress API 記事検索ツール]]
+
+### 仕事
+- [[03_work/_index|仕事関連インデックス]]
 
 ---
 
@@ -55,10 +74,12 @@
 
 1. **ナレッジベースの積極的活用**
    - コンテンツ生成時は必ず `04_knowledge/` 配下を参照する
+   - **テーマ別インデックス**（`essay_themes.md`）で関連エッセイを特定する
    - 過去のエッセイ（`personal_essays/`）から文体・表現・思考パターンを学ぶ
    - 倫理関連ブログ（`rinri/`）から価値観・哲学を理解する
-   - エピソード集（`episodes.md`）から具体的な体験を引用する
+   - エピソード集（`episodes.md`）から具体的なエピソードを引用・再利用する
    - 名言集（`quotes.md`）から好みのフレーズを活用する
+   - FAQ（`faq.md`）から正確な情報を参照する
 
 2. **ペルソナの完全遵守**
    - `00_persona/persona.md` のルールは絶対
@@ -72,25 +93,30 @@
    - ポジティブ、情熱的、かつ謙虚
 
 4. **参照の習慣化**
-   - ブログ生成時: 類似テーマのエッセイを2〜3本読んでから書く
-   - SNS生成時: 過去の投稿トーンを確認してから書く
-   - 新しい表現を見つけたら `persona.md` に追記を提案
+   - ブログ生成時: テーマ別インデックスで関連エッセイを特定し2〜3本読んでから書く
+   - SNS生成時: 過去の投稿トーンとquotes.mdを確認してから書く
+   - 新しい表現を見つけたら `quotes.md` に追記を提案
+   - キラリと光るエピソードがあれば `episodes.md` に追記を提案
 
 ### 📋 作業開始時のチェックリスト
 
 ```
 □ _index.md で全体構造を確認
 □ persona.md でルールを確認
-□ 04_knowledge/ から関連コンテンツを参照
-□ 過去の類似エッセイを2〜3本読む
+□ essay_themes.md でテーマ別にエッセイを特定
+□ episodes.md から再利用できるエピソードを確認
+□ quotes.md から使えるフレーズを確認
+□ 関連エッセイを2〜3本読む
 □ 生成後、ペルソナルールに違反がないか確認
+□ 生成後、ナレッジ資産化（episodes/quotes/faq への追記）を提案
 ```
 
 ### 🔗 必須参照ファイル
 
 - [[00_persona/persona.md|ペルソナ設定]] - 文体・哲学の根幹
-- [[04_knowledge/personal_essays/|エッセイ集]] - 72本のエッセイ
+- [[04_knowledge/personal_essays/essay_themes|テーマ別インデックス]] - テーマで素早く検索
+- [[04_knowledge/personal_essays/_index|エッセイ一覧]] - 72本のエッセイ
 - [[04_knowledge/rinri/|倫理関連ブログ]] - 32本のブログ
-- [[04_knowledge/episodes.md|エピソード集]] - 印象的な体験
-- [[04_knowledge/quotes.md|名言・フレーズ集]] - 好みの表現
-
+- [[04_knowledge/episodes|エピソード集]] - 再利用できるエピソード
+- [[04_knowledge/quotes|名言・フレーズ集]] - 好みの表現
+- [[04_knowledge/faq|FAQ]] - よくある質問と回答
